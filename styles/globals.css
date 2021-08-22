@@ -2,7 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto/Roboto-Regular.ttf');
+  font-style: regular;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto/Roboto-Medium.ttf');
+  font-style: medium;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto/Roboto-Bold.ttf');
+  font-style: bold;
+  font-weight: 600;
+}
+
+/* @layer used to set base styles. */
 @layer base {
+  * {
+    @apply font-sans
+  }
+
   a {
     @apply underline text-blue-600 hover:text-blue-800 visited:text-purple-600;
   }
