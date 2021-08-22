@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import Image from 'next/image';
+import Hero from '@components/molecules/Hero';
 
 export default function Home() {
   return (
@@ -12,12 +12,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <section className="bg-gradient-to-tr from-blue-600 via-indigo-500 to-purple-500">
-          <div>
-            <h1 className="font-bold text-white text-center text-4xl mb-5">Front-end Web Developer</h1>
-            <p className="text-center text-white text-2xl">I build for fun and for work</p>
-          </div>
-        </section>
+        <Hero />
       </main>
 
       <footer></footer>
