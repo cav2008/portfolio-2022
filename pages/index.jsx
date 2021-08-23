@@ -15,7 +15,7 @@ export default function Home() {
         <Hero />
       </main>
 
-      <footer></footer>
+      {/* <footer></footer> */}
     </div>
   );
 }
