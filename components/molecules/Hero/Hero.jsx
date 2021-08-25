@@ -6,7 +6,7 @@ import Button from '@components/atoms/Button';
 import starship from '@images/starship.png';
 
 const Hero = () => (
-  <section className="bg-gradient-to-tr from-blue-600 via-indigo-500 to-purple-500 pt-8 pb-32">
+  <section className="bg-gradient-to-tr from-indigo-500 via-violet-600 to-indigo-800 opacity-90 pt-8 pb-32">
     <div className="text-center mb-14">
       <Button text="Download C.V." />
     </div>
