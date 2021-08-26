@@ -11,6 +11,9 @@ module.exports = {
       colors: {
         violet: colors.violet,
       },
+      zIndex: {
+        '-10': '-10',
+      },
     },
   },
   variants: {
