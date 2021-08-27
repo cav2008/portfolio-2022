@@ -10,6 +10,7 @@ module.exports = {
       },
       colors: {
         violet: colors.violet,
+        teal: colors.teal,
       },
       zIndex: {
         '-10': '-10',
