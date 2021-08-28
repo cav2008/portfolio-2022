@@ -14,7 +14,7 @@ const Hero = () => (
       style={{ backgroundImage: `url(${stars.src})` }}
     />
     <Wrapper>
-      <div className="pt-8 pb-32 px-4">
+      <div className="pt-8 pb-32 px-4 lg:pb-60">
         <div className="text-center lg:text-right mb-14">
           <Button text="Download C.V." />
         </div>
