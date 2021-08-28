@@ -1,6 +1,8 @@
 import React from 'react';
 import Head from 'next/head';
-import Hero from '@components/molecules/Hero';
+
+import Hero from '@components/organisms/Hero';
+import Profile from '@components/organisms/Profile';
 
 export default function Home() {
   return (
@@ -13,6 +15,7 @@ export default function Home() {
 
       <main>
         <Hero />
+        <Profile />
       </main>
 
       {/* <footer></footer> */}
