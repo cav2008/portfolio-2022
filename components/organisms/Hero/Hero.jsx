@@ -8,7 +8,7 @@ import starship from '@images/starship.png';
 import stars from '@images/stars.png';
 
 const Hero = () => (
-  <section className="relative bg-gradient-to-tr from-blue-800 via-violet-600 to-indigo-800 opacity-90">
+  <div className="relative bg-gradient-to-tr from-blue-800 via-violet-600 to-indigo-800 opacity-90">
     <div
       className="absolute -z-10 w-full h-full bg-contain opacity-70"
       style={{ backgroundImage: `url(${stars.src})` }}
@@ -27,7 +27,7 @@ const Hero = () => (
         </div>
       </div>
     </Wrapper>
-  </section>
+  </div>
 );
 
 export default Hero;

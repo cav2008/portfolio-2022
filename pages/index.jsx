@@ -3,6 +3,7 @@ import Head from 'next/head';
 
 import Hero from '@components/organisms/Hero';
 import Profile from '@components/organisms/Profile';
+import Skill from '@components/organisms/Skill';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <main>
         <Hero />
         <Profile />
+        <Skill />
         <div className="bg-green-500 h-32" />
       </main>
 
