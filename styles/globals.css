@@ -24,7 +24,11 @@
 /* @layer used to set base styles. */
 @layer base {
   * {
-    @apply font-sans
+    @apply font-sans antialiased
+  }
+
+  body {
+    @apply bg-warmGray-100
   }
 
   a {

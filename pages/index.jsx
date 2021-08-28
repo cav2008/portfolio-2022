@@ -16,6 +16,7 @@ export default function Home() {
       <main>
         <Hero />
         <Profile />
+        <div className="bg-green-500 h-32" />
       </main>
 
       {/* <footer></footer> */}
