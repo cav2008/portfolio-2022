@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
+import Wrapper from '@components/atoms/Wrapper';
 import Button from '@components/atoms/Button';
 
 import starship from '@images/starship.png';
@@ -12,18 +13,20 @@ const Hero = () => (
       className="absolute -z-10 w-full h-full bg-contain opacity-70"
       style={{ backgroundImage: `url(${stars.src})` }}
     />
-    <div className="pt-8 pb-32">
-      <div className="text-center mb-14">
-        <Button text="Download C.V." />
-      </div>
-      <div className="text-center">
-        <div className="mb-5">
-          <Image src={starship} alt="star ship" width="70" height="77" />
+    <Wrapper>
+      <div className="pt-8 pb-32 px-4">
+        <div className="text-center lg:text-right mb-14">
+          <Button text="Download C.V." />
         </div>
-        <h1 className="font-bold text-white text-4xl mb-5">Front-end Web Developer</h1>
-        <p className="font-medium text-white text-2xl">I build for fun and for work</p>
+        <div className="text-center">
+          <div className="mb-5">
+            <Image src={starship} alt="star ship" width="70" height="77" />
+          </div>
+          <h1 className="font-bold text-white text-4xl mb-5">Front-end Web Developer</h1>
+          <p className="font-medium text-white text-2xl">I build for fun and for work</p>
+        </div>
       </div>
-    </div>
+    </Wrapper>
   </section>
 );
 
