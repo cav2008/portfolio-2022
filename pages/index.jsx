@@ -1,9 +1,10 @@
 import React from 'react';
 import Head from 'next/head';
 
-import Hero from '@components/organisms/Hero';
-import Profile from '@components/organisms/Profile';
-import Skill from '@components/organisms/Skill';
+import Hero from '@components/organisms/Home/Hero';
+import Profile from '@components/organisms/Home/Profile';
+import Skill from '@components/organisms/Home/Skill';
+import Work from '@components/organisms/Home/Work';
 
 export default function Home() {
   return (
@@ -16,8 +17,13 @@ export default function Home() {
 
       <main>
         <Hero />
-        <Profile />
-        <Skill />
+        <div className="mb-16 lg:-mt-14 lg:mb-14">
+          <Profile />
+        </div>
+        <div className="md:mb-4 lg:mb-0">
+          <Skill />
+        </div>
+        <Work />
         <div className="bg-purple-500 h-32" />
       </main>
 
