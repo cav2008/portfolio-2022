@@ -18,7 +18,7 @@ export default function Home() {
         <Hero />
         <Profile />
         <Skill />
-        <div className="bg-green-500 h-32" />
+        <div className="bg-purple-500 h-32" />
       </main>
 
       {/* <footer></footer> */}
