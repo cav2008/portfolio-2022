@@ -1,5 +1,4 @@
 {
-  // "extends": ["next", "next/core-web-vitals", "prettier", "prettier/react", "airbnb"],
   "extends": ["next", "next/core-web-vitals", "prettier", "airbnb"],
   "settings": {
     "import/resolver": {
@@ -12,6 +11,7 @@
     }
   },
   "rules": {
-    "max-len": ["error", { "code": 120, "ignoreStrings": true }]
+    "max-len": ["error", { "code": 120, "ignoreStrings": true }],
+    "object-curly-newline": "off"
   }
 }

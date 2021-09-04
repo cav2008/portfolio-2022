@@ -2,8 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 
 import Wrapper from '@components/atoms/Wrapper';
-import DetailRight from '@components/atoms/DetailRight';
-import DetailLeft from '@components/atoms/DetailLeft';
+import DetailRight, { AlIGNMENT } from '@components/atoms/Detail';
 
 import stars from '@images/stars2.png';
 import btLogo from '@images/bt-logo.png';
@@ -31,10 +30,11 @@ const Work = () => (
       paragraph="Worked in BT from 2015 - 2018, did many things. Like launching BT Sport, BT TV, BT mobile. Created the app for EE store employees to sell BT products to their customers."
       sideImage={btScreenshot}
     />
-    <DetailLeft
+    <DetailRight
       logo={<Image src={btLogo} width="150" height="70" alt="bt logo" />}
       paragraph="Worked in BT from 2015 - 2018, did many things. Like launching BT Sport, BT TV, BT mobile. Created the app for EE store employees to sell BT products to their customers."
       sideImage={btScreenshot}
+      alignment={AlIGNMENT.LEFT}
     />
   </>
 );
