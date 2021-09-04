@@ -13,13 +13,6 @@ module.exports = {
         teal: colors.teal,
         warmGray: colors.warmGray,
       },
-      screens: {
-        '3xl': '1600px',
-        '4xl': '1921px',
-      },
-      backgroundImage: {
-        'bt-screenshot': 'url("/images/bt-screenshot.png")',
-      },
       zIndex: {
         '-10': '-10',
       },

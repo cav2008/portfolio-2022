@@ -5,19 +5,22 @@ import Image from 'next/image';
 import Wrapper from '@components/atoms/Wrapper';
 
 const DetailRight = ({ logo, paragraph, sideImage }) => (
-  <div className="bg-warmGray-100 lg:pt-20 lg:pb-5">
-    <div className="bg-none lg:bg-bt-screenshot lg:bg-contain lg:bg-no-repeat lg:bg-origin-padding lg:bg-right">
-      <Wrapper>
-        <div className="grid grid-cols-1 lg:grid-cols-2 lg:pb-16 xl:pb-36 2xl:pb-52">
-          <div className="py-5 px-4">
-            <div className="text-center mb-5">{logo}</div>
-            <p className="text-lg text-center lg:text-left">{paragraph}</p>
-          </div>
+  <div className="bg-warmGray-100 lg:pt-20 lg:pb-5 lg:relative lg:overflow-hidden">
+    <Wrapper>
+      <div className="grid grid-cols-1 lg:grid-cols-2 lg:pb-16 xl:pb-36 2xl:pb-52">
+        <div className="py-5 px-4">
+          <div className="text-center mb-5">{logo}</div>
+          <p className="text-lg text-center lg:text-left">{paragraph}</p>
         </div>
-        <div className="lg:hidden">
-          <Image src={sideImage} />
+      </div>
+      <div className="text-center lg:hidden">
+        <div className="inline-block w-full md:w-2/3">
+          <Image src={sideImage} className="md:rounded-lg" />
         </div>
-      </Wrapper>
+      </div>
+    </Wrapper>
+    <div className="hidden lg:block lg:w-1/2 lg:absolute lg:top-20 lg:-right-20">
+      <Image src={sideImage} className="rounded-lg" />
     </div>
   </div>
 );
