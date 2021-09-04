@@ -5,6 +5,7 @@ import Hero from '@components/organisms/Home/Hero';
 import Profile from '@components/organisms/Home/Profile';
 import Skill from '@components/organisms/Home/Skill';
 import Work from '@components/organisms/Home/Work';
+import Projects from '@components/organisms/Home/Projects';
 
 export default function Home() {
   return (
@@ -23,11 +24,13 @@ export default function Home() {
         <div className="md:mb-4 lg:mb-0">
           <Skill />
         </div>
-        <Work />
-        <div className="bg-purple-500 h-32" />
+        <div className="mb-16 lg:mb-14">
+          <Work />
+        </div>
+        <Projects />
       </main>
 
-      {/* <footer></footer> */}
+      <footer className="bg-purple-500 h-32" />
     </div>
   );
 }

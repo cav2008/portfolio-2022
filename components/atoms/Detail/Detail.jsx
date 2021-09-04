@@ -11,12 +11,12 @@ export const AlIGNMENT = {
 
 const styles = {
   [AlIGNMENT.LEFT]: {
-    backgroundColor: 'bg-white',
+    backgroundColor: 'bg-warmGray-100',
     justify: 'lg:justify-end',
     position: 'lg:-left-20',
   },
   [AlIGNMENT.RIGHT]: {
-    backgroundColor: 'bg-warmGray-100',
+    backgroundColor: 'bg-gray-50',
     justify: '',
     position: 'lg:-right-20',
   },
