@@ -16,7 +16,7 @@ const Hero = () => (
     <Wrapper>
       <div className="pt-8 pb-32 px-4 lg:pb-60">
         <div className="text-center lg:text-right mb-14">
-          <Button text="Download C.V." />
+          <Button text="Download C.V." onClick={() => undefined} />
         </div>
         <div className="text-center">
           <div className="mb-5">

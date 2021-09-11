@@ -21,6 +21,7 @@ module.exports = {
   variants: {
     extend: {
       textColor: ['visited'],
+      display: ['group-hover', 'hover'],
     },
   },
   plugins: [],
