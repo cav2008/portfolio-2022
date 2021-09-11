@@ -20,33 +20,33 @@ const Projects = () => (
     <div className="grid grid-cols-1 px-2.5 gap-5 justify-items-center sm:grid-cols-2 md:grid-cols-3 lg:gap-y-7">
       <ProjectItem
         image={chatScreenshot}
-        title="Chatty"
+        title="Chat App"
         description="Node, React &amp; Socket.io instant messenger app"
       />
       <ProjectItem
         image={christmasScreenshot}
-        title="Chatty"
-        description="Node, React &amp; Socket.io instant messenger app"
+        title="Christmas Card"
+        description="JS &amp; Parallax Christmas card"
       />
       <ProjectItem
         image={midnightScreenshot}
-        title="Chatty"
-        description="Node, React &amp; Socket.io instant messenger app"
+        title="Midnight Running"
+        description="JS &amp; HTML5 dodge game"
       />
       <ProjectItem
         image={portfolioScreenshot}
-        title="Chatty"
-        description="Node, React &amp; Socket.io instant messenger app"
+        title="Porfolio 2015"
+        description="Bootstrap 3 personal portfolio"
       />
       <ProjectItem
         image={blackJackScreenshot}
-        title="Chatty"
-        description="Node, React &amp; Socket.io instant messenger app"
+        title="Black Jack"
+        description="React Black Jack card game"
       />
       <ProjectItem
         image={shipWarsScreenshot}
-        title="Chatty"
-        description="Node, React &amp; Socket.io instant messenger app"
+        title="Ship Wars"
+        description="JS single player battleship game"
       />
     </div>
   </Wrapper>
