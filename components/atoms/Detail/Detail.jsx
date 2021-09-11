@@ -22,7 +22,7 @@ const styles = {
   },
 };
 
-const Detail = ({ logo, paragraph, sideImage, alignment }) => (
+const Detail = ({ logo, paragraph, image, alignment }) => (
   <div className={`${styles[alignment].backgroundColor} lg:pt-20 lg:pb-5 lg:relative lg:overflow-hidden`}>
     <Wrapper>
       <div className={`flex ${styles[alignment].justify} lg:pb-16 xl:pb-36 2xl:pb-52`}>
@@ -33,12 +33,12 @@ const Detail = ({ logo, paragraph, sideImage, alignment }) => (
       </div>
       <div className="text-center lg:hidden">
         <div className="inline-block w-full md:w-2/3">
-          <Image src={sideImage} className="md:rounded-lg" />
+          <Image src={image} className="md:rounded-lg" />
         </div>
       </div>
     </Wrapper>
     <div className={`hidden lg:block lg:w-1/2 lg:absolute lg:top-20 ${styles[alignment].position}`}>
-      <Image src={sideImage} className="rounded-lg" />
+      <Image src={image} className="rounded-lg" />
     </div>
   </div>
 );
@@ -46,7 +46,7 @@ const Detail = ({ logo, paragraph, sideImage, alignment }) => (
 Detail.propTypes = {
   logo: PropTypes.element.isRequired,
   paragraph: PropTypes.string.isRequired,
-  sideImage: PropTypes.shape({}).isRequired,
+  image: PropTypes.shape({}).isRequired,
   alignment: PropTypes.string,
 };
 

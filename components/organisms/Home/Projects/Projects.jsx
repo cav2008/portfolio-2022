@@ -1,10 +1,14 @@
 import React from 'react';
-import Image from 'next/image';
 
 import Wrapper from '@components/atoms/Wrapper';
-import Button from '@components/atoms/Button';
+import ProjectItem from '@components/molecules/ProjectItem';
 
 import chatScreenshot from '@images/chat-app-screenshot.png';
+import christmasScreenshot from '@images/christmas-card-screenshot.png';
+import midnightScreenshot from '@images/midnight-running-screenshot.png';
+import portfolioScreenshot from '@images/portfolio-screenshot.png';
+import blackJackScreenshot from '@images/react-blackjack-screenshot.png';
+import shipWarsScreenshot from '@images/ship-wars-screenshot.png';
 
 const Projects = () => (
   <Wrapper>
@@ -13,17 +17,37 @@ const Projects = () => (
       <p className="text-lg">Projects I have created for fun and learning during my free time</p>
     </div>
 
-    <div className="grid grid-cols-1 gap-5 justify-items-center lg:grid-cols-3 lg:gap-y-7">
-      <div className="relative group">
-        <Image src={chatScreenshot} alt="chat app" className="rounded-lg" />
-        <div className="hidden content-center absolute top-0 w-full h-full text-center bg-indigo-500 opacity-95 rounded-lg group-hover:grid">
-          <div className="inline-block">
-            <p className="font-bold text-2xl text-white mb-2.5">Chatty</p>
-            <p className="text-lg text-white mb-7">Node, React &amp; Socket.io instant messenger app</p>
-            <Button text="Demo" onClick={() => console.log('click')} />
-          </div>
-        </div>
-      </div>
+    <div className="grid grid-cols-1 px-2.5 gap-5 justify-items-center sm:grid-cols-2 md:grid-cols-3 lg:gap-y-7">
+      <ProjectItem
+        image={chatScreenshot}
+        title="Chatty"
+        description="Node, React &amp; Socket.io instant messenger app"
+      />
+      <ProjectItem
+        image={christmasScreenshot}
+        title="Chatty"
+        description="Node, React &amp; Socket.io instant messenger app"
+      />
+      <ProjectItem
+        image={midnightScreenshot}
+        title="Chatty"
+        description="Node, React &amp; Socket.io instant messenger app"
+      />
+      <ProjectItem
+        image={portfolioScreenshot}
+        title="Chatty"
+        description="Node, React &amp; Socket.io instant messenger app"
+      />
+      <ProjectItem
+        image={blackJackScreenshot}
+        title="Chatty"
+        description="Node, React &amp; Socket.io instant messenger app"
+      />
+      <ProjectItem
+        image={shipWarsScreenshot}
+        title="Chatty"
+        description="Node, React &amp; Socket.io instant messenger app"
+      />
     </div>
   </Wrapper>
 );

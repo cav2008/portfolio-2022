@@ -32,18 +32,18 @@ const Work = () => (
     <Detail
       logo={<Image src={vioohLogo} width="150" height="60" alt="atchai logo" />}
       paragraph="Worked in BT from 2015 - 2018, did many things. Like launching BT Sport, BT TV, BT mobile. Created the app for EE store employees to sell BT products to their customers."
-      sideImage={vioohScreenshot}
+      image={vioohScreenshot}
     />
     <Detail
       logo={<Image src={btLogo} width="150" height="70" alt="bt logo" />}
       paragraph="Worked in BT from 2015 - 2018, did many things. Like launching BT Sport, BT TV, BT mobile. Created the app for EE store employees to sell BT products to their customers."
-      sideImage={btScreenshot}
+      image={btScreenshot}
       alignment={AlIGNMENT.LEFT}
     />
     <Detail
       logo={<Image src={atchaiLogo} width="95" height="95" alt="atchai logo" />}
       paragraph="Worked in BT from 2015 - 2018, did many things. Like launching BT Sport, BT TV, BT mobile. Created the app for EE store employees to sell BT products to their customers."
-      sideImage={atchaiScreenshot}
+      image={atchaiScreenshot}
     />
   </>
 );
