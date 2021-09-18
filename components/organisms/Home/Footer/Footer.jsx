@@ -8,8 +8,8 @@ import github from '@icons/github.png';
 import youtube from '@icons/youtube.png';
 
 const Footer = () => (
-  <footer className="pt-12 px-4 pb-5 text-white text-center bg-gradient-to-tr from-blue-800 via-violet-600 to-indigo-800 opacity-90">
-    <h2 className="font-bold text-2xl mb-2.5 lg:text-4xl">Find me here</h2>
+  <footer className="pt-12 px-4 pb-5 text-white text-center bg-gradient-to-tr from-red-700 via-indigo-700 to-blue-900 opacity-80">
+    <h2 className="font-bold text-2xl mb-2.5 lg:text-4xl opacity-100">Find me here</h2>
     <p className="text-lg mb-5">I am very active on these social sites</p>
 
     <div className="flex justify-center gap-5 mb-12">
