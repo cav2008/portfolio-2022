@@ -17,7 +17,7 @@ const Projects = () => (
       <p className="text-lg">Projects I have created for fun and learning during my free time</p>
     </div>
 
-    <div className="grid grid-cols-1 px-2.5 gap-5 justify-items-center sm:grid-cols-2 md:grid-cols-3 lg:gap-y-7">
+    <div className="grid grid-cols-1 mb-5 px-2.5 gap-5 justify-items-center sm:grid-cols-2 md:grid-cols-3 lg:gap-y-7">
       <ProjectItem
         image={chatScreenshot}
         title="Chat App"

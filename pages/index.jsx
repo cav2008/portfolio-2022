@@ -6,6 +6,7 @@ import Profile from '@components/organisms/Home/Profile';
 import Skill from '@components/organisms/Home/Skill';
 import Work from '@components/organisms/Home/Work';
 import Projects from '@components/organisms/Home/Projects';
+import Footer from '@components/organisms/Home/Footer';
 
 export default function Home() {
   return (
@@ -30,7 +31,7 @@ export default function Home() {
         <Projects />
       </main>
 
-      <footer className="bg-purple-500 h-32" />
+      <Footer />
     </div>
   );
 }
