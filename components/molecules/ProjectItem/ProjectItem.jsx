@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Image from 'next/image';
 
-import Button from '@components/atoms/Button';
+import ButtonLink from '@components/atoms/Button/variants/ButtonLink';
 
 const ProjectItem = ({ image, title, description }) => (
   <div className="relative group">
@@ -11,7 +11,7 @@ const ProjectItem = ({ image, title, description }) => (
       <div className="inline-block">
         <p className="font-bold text-2xl text-white mb-2.5">{title}</p>
         <p className="text-lg text-white mb-7">{description}</p>
-        <Button text="Demo" onClick={() => console.log('click')} />
+        <ButtonLink text="Demo" link="" />
       </div>
     </div>
   </div>
