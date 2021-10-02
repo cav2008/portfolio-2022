@@ -13,10 +13,10 @@ const Footer = () => (
     <p className="text-lg mb-5">I am very active on these social sites</p>
 
     <div className="flex justify-center gap-5 mb-12">
-      <IconButton icon={linkedIn} />
-      <IconButton icon={instagram} />
-      <IconButton icon={github} />
-      <IconButton icon={youtube} />
+      <IconButton icon={linkedIn} link="https://www.linkedin.com/in/cavan-l-48682417/" />
+      {/* <IconButton icon={instagram} link="#" /> */}
+      <IconButton icon={github} link="https://github.com/cav2008" />
+      {/* <IconButton icon={youtube} link="#" /> */}
     </div>
 
     <p className="text-sm font-bold">Designed and created by Cavan Law</p>
