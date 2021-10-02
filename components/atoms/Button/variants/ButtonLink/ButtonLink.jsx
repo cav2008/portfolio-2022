@@ -7,6 +7,8 @@ import chevronRight from '@icons/chevron-right.svg';
 const ButtonLink = ({ text, link }) => (
   <a
     href={link}
+    target="_blank"
+    rel="noreferrer"
     className="relative inline-block px-10 py-2.5 text-md leading-none no-underline rounded-lg border-2 border-teal-500 hover:bg-teal-500"
   >
     <span className="text-white">{text}</span>

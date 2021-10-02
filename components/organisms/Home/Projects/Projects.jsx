@@ -22,16 +22,19 @@ const Projects = () => (
         image={chatScreenshot}
         title="Chat App"
         description="Node, React &amp; Socket.io instant messenger app"
+        link="https://github.com/cav2008/chat-app"
       />
       <ProjectItem
         image={christmasScreenshot}
         title="Christmas Card"
         description="JS &amp; Parallax Christmas card"
+        link="https://cav2008.github.io/christmas-card/?Cavan"
       />
       <ProjectItem
         image={midnightScreenshot}
         title="Midnight Running"
         description="JS &amp; HTML5 dodge game"
+        link="https://cav2008.github.io/midnight-running/"
       />
       <ProjectItem
         image={portfolioScreenshot}
@@ -42,11 +45,13 @@ const Projects = () => (
         image={blackJackScreenshot}
         title="Black Jack"
         description="React Black Jack card game"
+        link="https://cav2008.github.io/react-blackjack/"
       />
       <ProjectItem
         image={shipWarsScreenshot}
         title="Ship Wars"
         description="JS single player battleship game"
+        link="https://cav2008.github.io/ship-wars/"
       />
     </div>
   </Wrapper>
