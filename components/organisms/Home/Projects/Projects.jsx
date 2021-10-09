@@ -40,6 +40,7 @@ const Projects = () => (
         image={portfolioScreenshot}
         title="Porfolio 2015"
         description="Bootstrap 3 personal portfolio"
+        link="https://cav2008.github.io/portfolio-2015/"
       />
       <ProjectItem
         image={blackJackScreenshot}
