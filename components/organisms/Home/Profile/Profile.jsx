@@ -16,9 +16,9 @@ const Profile = () => (
         <div className="text-center my-8 lg:my-0 lg:text-left">
           <p className="font-bold text-2xl mb-2.5 lg:mb-5 lg:text-4xl">Hello &amp; Welcome!</p>
           <p className="text-lg">
-            I am a passionate developer who is always looking for new projects to undertake and is always
-            learning/developing my skills at work and during my free time. I have gained two years work experience in
-            front-end web development, working on projects with major companies/organisations.
+            I am a passionate developer who is always looking for new projects to undertake. In my spare time I enjoy
+            using code to solve problems or just to learn something new. I have approximately 8 years of work experience
+            in front-end web development, working on various projects with major companies.
           </p>
         </div>
       </div>
