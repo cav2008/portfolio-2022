@@ -23,7 +23,7 @@ const Hero = () => (
             <Image src={starship} alt="star ship" width="70" height="77" />
           </div>
           <h1 className="font-bold text-white text-4xl mb-5">Front-end Web Developer</h1>
-          <p className="font-medium text-white text-2xl">I build for fun and for work</p>
+          <p className="font-medium text-white text-2xl">I build for work and for fun</p>
         </div>
       </div>
     </Wrapper>

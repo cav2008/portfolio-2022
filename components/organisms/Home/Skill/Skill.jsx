@@ -12,8 +12,8 @@ const Skill = () => (
   <Wrapper>
     <div className="relative lg:z-10">
       <div className="text-center mb-5 px-4">
-        <h2 className="font-bold text-2xl mb-2.5 lg:text-4xl">Key Skills</h2>
-        <p className="text-lg">Some of the skills I currently have, but will gain lots more.</p>
+        <h2 className="font-bold text-2xl mb-2.5 lg:text-4xl">Technology</h2>
+        <p className="text-lg">Some of the technologies I have used.</p>
       </div>
 
       <div className="md:grid md:grid-cols-3 md:gap-x-4">
