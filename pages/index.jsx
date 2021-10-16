@@ -14,6 +14,7 @@ export default function Home() {
       <Head>
         <title>Cavan Portfolio 2022</title>
         <meta name="description" content="Cavan Law's personal frontend developer portfolio created in 2022 showcasing current and previous projects/work" />
+        <meta name="robots" content="index,follow" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
