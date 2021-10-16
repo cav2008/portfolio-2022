@@ -31,18 +31,18 @@ const Work = () => (
 
     <Detail
       logo={<Image src={vioohLogo} width="150" height="60" alt="viooh logo" />}
-      paragraph="Currently working with VIOOH (pronounced view) since 2018. Helping to build a brand new, global out of home (OOH) application, to let media owners &amp; media buyers buy &amp; sell programmatically."
+      paragraph="Currently working with VIOOH (pronounced view) since 2018. Helping to build a brand new global out of home (OOH) application, to let media owners/buyers buy &amp; sell advertisement space programmatically."
       image={vioohScreenshot}
     />
     <Detail
       logo={<Image src={btLogo} width="150" height="70" alt="bt logo" />}
-      paragraph="Worked at BT consumer from 2015 - 2018. Built sales journeys for major product launches such as BT Sport, BT TV, BT mobile. Created an app for EE store employees to sell BT products to their customers."
+      paragraph="Worked at BT consumer from 2015 - 2018. Built sales journeys for major product launches such as BT Sport, BT TV, and BT mobile. Created an app for EE store employees to sell BT products to their customers."
       image={btScreenshot}
       alignment={AlIGNMENT.LEFT}
     />
     <Detail
       logo={<Image src={atchaiLogo} width="95" height="95" alt="atchai logo" />}
-      paragraph="My first developer position after graduating, where I stayed from 2013 - 2015. Worked with companies such as Turner Broadcasting System &amp; NHS Digital, and on an in-house SaaS product called Dataseed."
+      paragraph="Joined Atchai Digital after graduating university, where I stayed from 2013 - 2015. Worked with companies such as Turner Broadcasting System &amp; NHS Digital, and on an in-house SaaS product called Dataseed."
       image={atchaiScreenshot}
     />
   </>

@@ -33,12 +33,12 @@ const Detail = ({ logo, paragraph, image, alignment }) => (
       </div>
       <div className="text-center lg:hidden">
         <div className="inline-block w-full md:w-2/3">
-          <Image src={image} className="md:rounded-lg" />
+          <Image src={image} className="md:rounded-lg" alt="screenshot of website" />
         </div>
       </div>
     </Wrapper>
     <div className={`hidden lg:block lg:w-1/2 lg:absolute lg:top-20 ${styles[alignment].position}`}>
-      <Image src={image} className="rounded-lg" />
+      <Image src={image} className="rounded-lg" alt="screenshot of website" />
     </div>
   </div>
 );

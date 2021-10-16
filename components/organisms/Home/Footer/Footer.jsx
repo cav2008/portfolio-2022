@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 import IconLink from '@components/atoms/IconLink';
 
@@ -11,8 +12,8 @@ const Footer = () => (
     <p className="text-lg mb-5">I am highly active on these social sites</p>
 
     <div className="flex justify-center gap-5 mb-12">
-      <IconLink icon={linkedIn} link="https://www.linkedin.com/in/cavan-l-48682417/" />
-      <IconLink icon={github} link="https://github.com/cav2008" />
+      <IconLink icon={<Image src={linkedIn} alt="linkedin icon" />} link="https://www.linkedin.com/in/cavan-l-48682417/" />
+      <IconLink icon={<Image src={github} alt="github icon" />} link="https://github.com/cav2008" />
     </div>
 
     <p className="text-sm font-bold">Designed and created by Cavan Law</p>
