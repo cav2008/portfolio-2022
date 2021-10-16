@@ -7,18 +7,21 @@
   src: url('/fonts/Roboto/Roboto-Regular.ttf');
   font-style: regular;
   font-weight: 400;
+  font-display: swap;
 }
 @font-face {
   font-family: 'Roboto';
   src: url('/fonts/Roboto/Roboto-Medium.ttf');
   font-style: medium;
   font-weight: 500;
+  font-display: swap;
 }
 @font-face {
   font-family: 'Roboto';
   src: url('/fonts/Roboto/Roboto-Bold.ttf');
   font-style: bold;
   font-weight: 600;
+  font-display: swap;
 }
 
 /* @layer used to set base styles. */
