@@ -8,10 +8,14 @@ import starship from '@images/starship.png';
 import stars from '@images/stars.png';
 
 const Hero = () => (
-  <div className="relative bg-gradient-to-tr from-blue-800 via-violet-600 to-indigo-800 opacity-90">
-    <div
-      className="absolute -z-10 w-full h-full bg-contain opacity-70"
-      style={{ backgroundImage: `url(${stars.src})` }}
+  <div className="relative bg-gradient-to-tr from-blue-800 via-violet-600 to-indigo-800">
+    <Image
+      src={stars}
+      alt="stars background"
+      layout="fill"
+      objectFit="cover"
+      objectPosition="center"
+      className="opacity-50"
     />
     <Wrapper>
       <div className="pt-8 pb-32 px-4 lg:pb-60">
