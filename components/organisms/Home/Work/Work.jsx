@@ -15,10 +15,14 @@ import vioohScreenshot from '@images/viooh-screenshot.png';
 const Work = () => (
   <>
     <div className="lg:-mt-14">
-      <div className="relative bg-gradient-to-tr from-purple-800 via-purple-600 to-blue-800 opacity-90">
-        <div
-          className="absolute -z-10 w-full h-full bg-contain bg-repeat-y bg-center opacity-70"
-          style={{ backgroundImage: `url(${stars.src})` }}
+      <div className="relative bg-gradient-to-tr from-purple-800 via-purple-600 to-blue-800">
+        <Image
+          src={stars}
+          alt="stars background"
+          layout="fill"
+          objectFit="cover"
+          objectPosition="center"
+          className="opacity-40"
         />
         <Wrapper>
           <div className="text-center px-4 pt-12 pb-5 lg:pt-44 lg:pb-20">
