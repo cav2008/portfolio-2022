@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 
 import Wrapper from '@components/atoms/Wrapper';
-import Button from '@components/atoms/Button';
+import ButtonLink from '@components/atoms/Button/variants/ButtonLink';
 
 import starship from '@images/starship.png';
 import stars from '@images/stars.png';
@@ -20,7 +20,7 @@ const Hero = () => (
     <Wrapper>
       <div className="pt-8 pb-32 px-4 lg:pb-60">
         <div className="text-center lg:text-right mb-14">
-          <Button text="Download C.V." onClick={() => undefined} />
+          <ButtonLink text="Download C.V." link="https://docs.google.com/document/d/1YG8VdsFYZf5R8aOBI1BbOBhQinvsRrst/edit?usp=sharing&ouid=105863550521448159605&rtpof=true&sd=true" />
         </div>
         <div className="text-center">
           <div className="mb-5">
